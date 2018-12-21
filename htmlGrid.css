@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid: 125px 125px 125px 125px / 125px 125px 125px 125px; 
+    grid-gap: 10px;
+    background-color: rgb(144, 194, 238);
+    padding: 10px;
+    max-width: 550px;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: all 0.6s ease;
+    -webkit-transform-style: preserve-3d;
+  }
+  .card-flip {
+    -webkit-transform: rotateY(180deg);
+  }
+
+  .front {
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+  }
+
+  .back {
+    position: absolute;
+    backface-visibility: hidden;
+    
+  }
+
+  img {
+    max-width:100%;
+    max-height:100%;
+  }
+
+  #grid-panel {
+    display: inline-block !important;
+  }
+  #menu_panel {
+    display: inline-block !important;
+    padding-right: 50px !important;
+  }
+
+  #congrats-span {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600
+  }

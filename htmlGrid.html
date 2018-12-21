@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+   
+    <link rel="stylesheet" type="text/css" href="htmlGrid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="htmlGrid.js"></script>
+</head>
+
+<body>
+
+    <div id="grid-panel" style="display: inline-block">
+        <div class="grid-container">
+            <div class="item1 card" id="1" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item2 card" id="2" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item3 card" id="3" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>  
+            <div class="item4 card" id="4" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item5 card" id="5" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item6 card" id="6" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item7 card" id="7" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item8 card" id="8" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item9 card" id="9" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>  
+            <div class="item10 card" id="10" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item11 card" id="11" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item12 card" id="12" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item13 card" id="13" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item14 card" id="14" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item15 card" id="15" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+            <div class="item16 card" id="16" onclick="flip(this)">
+                <div class="back"><img src="./defaultBack.jpg"/></div>
+                <div class="front"></div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-panel" style="position:fixed; display:inline-block; padding-right:50px">
+        <br>
+        <div style="margin-left: 50px; width: 300px" class="progress" >
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="80" style="width:70%">
+                <span id="progress-score"></span>
+            </div>
+        </div>
+        <h2 style="margin-left: 50px;">Score: <span id="score-span"></span> points</h2>
+        <div style="margin-left: 50px;" align="center" id="end-div"></div>
+    </div>
+
+    
+</body>
+</html>
